@@ -17,6 +17,3 @@ def palindromeRearranging(inputString):
 			else:
 				return False
 	return True
-
-a = 'aabb'
-print(palindromeRearranging(a))
