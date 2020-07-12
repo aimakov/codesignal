@@ -6,7 +6,6 @@ def arrayChange(inputArray):
 		if inputArray[i]<=inputArray[i-1]:
 			ans+=inputArray[i-1]-inputArray[i]+1
 			inputArray[i]+=inputArray[i-1]-inputArray[i]+1
-			
 	return ans
 
 
